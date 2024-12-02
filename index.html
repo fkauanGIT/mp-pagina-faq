@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/Vitejs-logo.svg.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/kauan.css">
+    <title>FAQ</title>
+  </head>
+  <body>
+    <div class="faq-container">
+      <h1 class="faq-container__title">Perguntas Frequentes</h1>
+
+      <section class="faq-container__elements">
+        <img src="public/FAQs-amico 1.svg" alt="faq-image" class="img">
+        <ul class="faq-container__ul"></ul>
+      </section>
+    </div>
+
+    <template id="card">
+      <li class="faq-container__li">
+        <h2 class="faq-container__question">
+          <span class="faq-container__question__card"></span>
+          <img src="public/Vector.svg" alt="vector" class="vector">
+        </h2>
+
+        <p class="faq-container__answer__card"></p>
+      </li>
+    </template>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
